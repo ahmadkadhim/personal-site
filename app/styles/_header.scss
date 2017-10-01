@@ -1,0 +1,43 @@
+
+header {
+  padding: 2rem;
+  background: #FAFAFA;
+
+  
+  .content {
+    background: url('../images/header-bg-desktop.svg') 50% 50% no-repeat;
+    background-size: contain;
+    width: 90%;
+    height: 36rem;
+    // margin: rem 0;
+    position: relative;
+  }
+
+  .portrait {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    margin-top: -100px;
+
+    & img {
+      width: 200px;
+    }
+  }
+
+  .hey {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 200px;
+    margin-top: -100px;
+  }
+
+  .icon-button {
+    background: url(../images/icon-octagon.svg) 50% 50% no-repeat;
+    background-size: cover;
+    height: 48px;
+    width: 48px;
+    display: inline-block;
+    margin-right: .5em;
+  }
+}

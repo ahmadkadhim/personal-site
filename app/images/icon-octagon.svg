@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Polygon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Main-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.1">
+        <g id="Desktop-HD" transform="translate(-756.000000, -509.000000)" fill="#002B7C">
+            <g id="Introduction" transform="translate(-4.000000, -287.000000)">
+                <g id="Introduction-Content" transform="translate(238.000000, 436.000000)">
+                    <g id="Contact-Buttons" transform="translate(510.000000, 348.000000)">
+                        <g id="Twitter-Button">
+                            <polygon id="Polygon" transform="translate(41.810015, 41.810015) rotate(22.500000) translate(-41.810015, -41.810015) " points="41.8100149 9.81001488 64.4374319 19.1825979 73.8100149 41.8100149 64.4374319 64.4374319 41.8100149 73.8100149 19.1825979 64.4374319 9.81001488 41.8100149 19.1825979 19.1825979"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

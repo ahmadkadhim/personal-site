@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1064px" height="696px" viewBox="0 0 1064 696" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Path 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="17.3228663%" y1="22.999557%" x2="70.179357%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.8" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="162.219453 226.297166 413.757528 47.9061466 1087.84964 133.821864 1203.23579 420.552224 1054.91012 687.688058 372.830694 742.075097 140.642749 533.711334"></polygon>
+    </defs>
+    <g id="Main-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-140.000000, -47.000000)">
+            <g id="Introduction">
+                <g id="Path-4">
+                    <use fill-opacity="0.160000011" fill="#0064B2" xlink:href="#path-2"></use>
+                    <use fill-opacity="0.799999952" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

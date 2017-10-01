@@ -1,0 +1,16 @@
+
+
+body {
+}
+
+header, section, footer {
+	@include grid-container;
+	padding-left: 1rem;
+}
+
+// .portrait {
+//   @include grid-column(6);
+// }
+// .hey {
+//   @include grid-column(6);
+// }

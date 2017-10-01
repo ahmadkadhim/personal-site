@@ -1,0 +1,64 @@
+
+// 
+.projects {
+
+	box-shadow: inset 0 0 8px rgba(0,0,0,0.10);
+
+	$screenshot-width: 300px;
+	$screenshot-height: calc(300px*.62);
+
+	background: $gray-1;
+	overflow-x: auto;
+	overflow-y: hidden;
+	white-space: nowrap;
+	-webkit-overflow-scrolling: touch;
+	width: 100%;
+	padding-top: $base-spacing;
+	padding-left: $base-spacing;
+	// margin-left: -$base-spacing;
+	margin-bottom: $base-spacing;
+
+	article {
+		width: $screenshot-width;
+		// max-width: 85%;
+		white-space: normal;
+		display: inline-block;
+		vertical-align: top;
+		margin-right: 1rem;
+	}
+
+	.screenshot {
+		overflow: hidden;
+		height: $screenshot-height;
+		width: 100%;
+		// height: 33.15%;
+		box-shadow: 0.25px 2px 16px rgba(0,0,0,.10);
+
+		img {
+			// height: $screenshot-height;
+			width: 100%;
+			object-fit: cover;
+			object-position: 0% 50%;
+			// max-width: 85%;
+		}
+	}
+
+	.logo {
+		width: 100%;
+
+		img {
+			display: block;
+			margin: 2em 0 0.5rem .5rem;
+		}
+	}
+
+	.project-description {
+		padding: $base-spacing/2;
+	}
+
+	.caption {
+		margin-bottom: $base-spacing/8;
+	}
+
+}
+
