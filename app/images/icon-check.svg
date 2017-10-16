@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="21" viewBox="0 0 24 21">
+  <g fill="none" fill-rule="evenodd" transform="translate(0 -3)">
+    <path fill="#3DCAAB" fill-rule="nonzero" d="M23.854,4.146 L20.354,0.646 C20.159,0.451 19.842,0.451 19.647,0.646 L7.5,12.792 L4.353,9.646 C4.158,9.451 3.841,9.451 3.646,9.646 L0.146,13.146 C-0.049,13.341 -0.049,13.658 0.146,13.853 L7.146,20.853 C7.341,21.049 7.658,21.049 7.853,20.853 L23.853,4.853 C24.049,4.658 24.049,4.341 23.854,4.146 Z" transform="translate(0 3)"/>
+    <rect width="24" height="24"/>
+  </g>
+</svg>

@@ -1,10 +1,17 @@
-// generated on 2017-10-14 using generator-webapp 2.4.1
+// generated on 2017-03-08 using generator-webapp 2.4.1
 const gulp = require('gulp');
 const gulpLoadPlugins = require('gulp-load-plugins');
 const browserSync = require('browser-sync').create();
 const del = require('del');
 const wiredep = require('wiredep').stream;
 const runSequence = require('run-sequence');
+const imageOptim = require('gulp-imageoptim');
+const realFavicon = require ('gulp-real-favicon');
+const fs = require('fs');
+const debug = require('gulp-debug');
+
+// File where the favicon markups are stored
+const FAVICON_DATA_FILE = 'faviconData.json';
 
 const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
@@ -57,7 +64,8 @@ gulp.task('html', ['styles', 'scripts'], () => {
   return gulp.src('app/*.html')
     .pipe($.useref({searchPath: ['.tmp', 'app', '.']}))
     .pipe($.if(/\.js$/, $.uglify({compress: {drop_console: true}})))
-    .pipe($.if(/\.css$/, $.cssnano({safe: true, autoprefixer: false})))
+    .pipe(debug({title: 'html:'}))
+    .pipe($.if(/\.css$/, $.cssnano({safe: true, autoprefixer: true})))
     .pipe($.if(/\.html$/, $.htmlmin({
       collapseWhitespace: false,
       minifyCSS: true,
@@ -73,23 +81,15 @@ gulp.task('html', ['styles', 'scripts'], () => {
 
 gulp.task('images', () => {
   return gulp.src('app/images/**/*')
-    .pipe($.cache($.imagemin()))
+    .pipe(debug({title: 'images:'}))
+    .pipe($.cache(imageOptim.optimize()))
     .pipe(gulp.dest('dist/images'));
-});
+}); 
 
 gulp.task('fonts', () => {
   return gulp.src(require('main-bower-files')('**/*.{eot,svg,ttf,woff,woff2}', function (err) {})
     .concat('app/fonts/**/*'))
     .pipe($.if(dev, gulp.dest('.tmp/fonts'), gulp.dest('dist/fonts')));
-});
-
-gulp.task('extras', () => {
-  return gulp.src([
-    'app/*',
-    '!app/*.html'
-  ], {
-    dot: true
-  }).pipe(gulp.dest('dist'));
 });
 
 // Generate the icons. This task takes a few seconds to complete.
@@ -181,7 +181,14 @@ gulp.task('check-for-favicon-update', function(done) {
   });
 });
 
-
+gulp.task('extras', () => {
+  return gulp.src([
+    'app/*',
+    '!app/*.html'
+  ], {
+    dot: true
+  }).pipe(gulp.dest('dist'));
+});
 
 gulp.task('clean', del.bind(null, ['.tmp', 'dist']));
 
@@ -212,6 +219,7 @@ gulp.task('serve', () => {
 });
 
 gulp.task('serve:dist', ['default'], () => {
+  console.log('hi');
   browserSync.init({
     notify: false,
     port: 9000,
@@ -247,6 +255,7 @@ gulp.task('wiredep', () => {
     .pipe(wiredep({
       ignorePath: /^(\.\.\/)+/
     }))
+    .pipe(debug({title: 'wiredep scss:'}))
     .pipe(gulp.dest('app/styles'));
 
   gulp.src('app/*.html')

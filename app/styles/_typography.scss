@@ -14,6 +14,13 @@
   src: url("fonts/apercu-mono-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/apercu-mono-webfont.woff") format("woff"), url("fonts/apercu-mono-webfont.ttf") format("truetype"), url("fonts/apercu-mono-webfont.svg#svgFontName") format("svg");
   /* Legacy iOS */
 }
+@font-face {
+  font-family: 'Verlag';
+  src: url("fonts/verlag-book.ttf");
+  /* IE9 Compat Modes */
+  src: url("fonts/verlag-book.ttf?#iefix") format("embedded-opentype"), url("fonts/verlag-book.ttff") format("woff"), url("fonts/verlag-book.ttf") format("truetype"), url("fonts/verlag-book.ttf#svgFontName") format("svg");
+  /* Legacy iOS */
+}
 
 body, h1, h2, h3, h4, h5, h6, p, button, a, input {
   font-family: 'Apercu', Helvetica, Arial, sans-serif;
@@ -30,7 +37,7 @@ body, h1, h2, h3, h4, h5, h6, p, button, a, input {
 }
 
 h3 {
-	font-family: Apercu-Regular;
+	font-family: 'Apercu-Regular';
 	font-size: 24px;
 	// color: $primary-color;
 	letter-spacing: 0;
@@ -42,7 +49,7 @@ h3 {
 }
 
 p {
-	font-family: Apercu-Regular;
+	font-family: 'Apercu-Regular';
 	font-size: 16px;
 	color: #526173;
 	line-height: 24px;
@@ -50,7 +57,7 @@ p {
 }
 
 p.caption {
-	font-family: Apercu-Mono;
+	font-family: 'Apercu-Mono';
 	font-size: 14px;
 	color: rgba(82,97,115,0.60);
 	letter-spacing: -0.4px;

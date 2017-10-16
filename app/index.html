@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ahmad Kadhim | Design+Code+Teach+Build</title>
 
-    <link rel="stylesheet" href="styles/main.css">
     <!-- Place favicon.ico in the root directory -->
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
     <link rel="apple-touch-icon" sizes="x" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
@@ -31,17 +31,56 @@
     <header>
       <div class="content">
 
+        <!-- <img class="background-septagon" src="images/header-bg-desktop.svg" alt=""> -->
         <div class="portrait">
-          <img src="images/portrait.png" alt="">
+          <img src="images/portrait.png" alt="Portrait photo">
         </div>
 
         <div class="hey">
           <h2 id="hand" class="emoji run-animation">👋🏼</h2>
           <h1>Hey!<br>I'm Ahmad</h1>
           <div class="content-buttons">
-            <div class="icon-button"></div>
-            <div class="icon-button"></div>
-            <div class="icon-button"></div>
+            <a href="https://twitter.com/ahmadkadhim">
+              <div class="icon-button">
+                <svg class="octagon" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" style="width:64px; height:64px">
+                  <polygon fill="#002C7C" fill-opacity=".1" fill-rule="evenodd" points="54.246 12.436 71.564 29.754 71.564 54.246 54.246 71.564 29.754 71.564 12.436 54.246 12.436 29.754 29.754 12.436" transform="translate(-12 -12)"/>
+                </svg>
+                <svg class="twitter" xmlns="http://www.w3.org/2000/svg" width="23" height="19" viewBox="0 0 23 19" style="width:24px; height:24px">
+                  <path fill="#002C7C" d="M22.444,2.834 C21.63,3.197 20.944,3.209 20.217,2.85 C21.155,2.288 21.198,1.893 21.537,0.831 C20.659,1.352 19.686,1.731 18.651,1.935 C17.823,1.053 16.642,0.5 15.335,0.5 C12.825,0.5 10.791,2.536 10.791,5.044 C10.791,5.4 10.831,5.747 10.908,6.08 C7.132,5.891 3.783,4.082 1.542,1.332 C1.151,2.003 0.927,2.784 0.927,3.617 C0.927,5.194 1.73,6.584 2.948,7.399 C2.203,7.375 1.503,7.171 0.891,6.831 C0.89,6.85 0.89,6.868 0.89,6.888 C0.89,9.09 2.456,10.926 4.536,11.344 C3.87,11.525 3.168,11.553 2.483,11.423 C3.062,13.227 4.74,14.541 6.728,14.578 C4.783,16.102 2.372,16.737 0,16.459 C2.012,17.748 4.399,18.5 6.966,18.5 C15.324,18.5 19.894,11.576 19.894,5.571 C19.894,5.373 19.891,5.178 19.882,4.983 C20.769,4.343 21.835,3.746 22.444,2.834 Z"/>
+                </svg>
+
+
+              </div>
+            </a>
+            <a href="javascript:void(0);">
+              <div class="icon-button">
+                <svg class="octagon" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" style="width:64px; height:64px">
+                  <polygon fill="#002C7C" fill-opacity=".1" fill-rule="evenodd" points="54.246 12.436 71.564 29.754 71.564 54.246 54.246 71.564 29.754 71.564 12.436 54.246 12.436 29.754 29.754 12.436" transform="translate(-12 -12)"/>
+                </svg>
+                <svg class="linkedin" xmlns="http://www.w3.org/2000/svg" width="22" height="21" viewBox="0 0 22 21" style="width:24px; height:24px">
+                  <path fill="#002C7C" d="M5.527,20.5 L0.527,20.5 L0.527,7.5 L5.527,7.5 L5.527,20.5 Z M3.018,5.5 L2.988,5.5 C1.477,5.5 0.5,4.318 0.5,3.019 C0.5,1.69 1.508,0.607 3.047,0.607 C4.588,0.607 5.535,1.725 5.566,3.054 C5.565,4.353 4.588,5.5 3.018,5.5 Z M14.527,11.5 C13.422,11.5 12.527,12.396 12.527,13.5 L12.527,20.5 L7.527,20.5 C7.527,20.5 7.586,8.5 7.527,7.5 L12.527,7.5 L12.527,8.985 C12.527,8.985 14.075,7.542 16.465,7.542 C19.427,7.542 21.527,9.686 21.527,13.846 L21.527,20.5 L16.527,20.5 L16.527,13.5 C16.527,12.396 15.632,11.5 14.527,11.5 Z"/>
+                </svg>
+
+              </div>
+            </a>
+            <div class="icon-button js-textareaCopyBtn" onclick="this.focus();this.select;" tabindex="0">
+              <div class="tooltip">
+                <input type="text" class="js-copytextArea" value="akadhim13@gmail.com" readonly="readonly">
+                <div class="check-copied">
+                  <img src="images/icon-check.svg">
+                  Copied to Clipboard
+                </div>
+              </div>
+              <svg class="octagon" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" style="width:64px; height:64px">
+                  <polygon fill="#002C7C" fill-opacity=".1" fill-rule="evenodd" points="54.246 12.436 71.564 29.754 71.564 54.246 54.246 71.564 29.754 71.564 12.436 54.246 12.436 29.754 29.754 12.436" transform="translate(-12 -12)"/>
+                </svg>
+              <svg class="email" xmlns="http://www.w3.org/2000/svg" width="22" height="15" viewBox="0 0 22 15" style="width:24px; height:24px">
+                <g fill="#002C7C">
+                  <path d="M11.002,8.36 L21.097,0.33 C20.782,0.123 20.406,0 20.001,0 L2.001,0 C1.614,0 1.255,0.115 0.948,0.307 L11.002,8.36 Z"/>
+                  <path d="M21.764,1.076 L11.296,9.391 C11.118,9.525 10.88,9.525 10.702,9.39 L0.26,1.036 C0.1,1.323 0.001,1.648 0,2 L0,13 C0.001,14.103 0.898,15 2.001,15 L19.999,15 C21.102,15 21.999,14.103 22,13 L22,2 C22,1.665 21.91,1.353 21.764,1.076 Z"/>
+                </g>
+              </svg>
+            </div>
           </div>
         </div>
         
@@ -64,7 +103,7 @@
             <div class="project-description">
               <p class="caption">Role</p>
               <p>UX/UI Designer</p>
-              <p class="caption">Project:</p>
+              <p class="caption">Project</p>
               <p>Web app to help the Canadian government measure, track, and analyze the impact of their funding.</p>
             </div>
           </article>
@@ -80,7 +119,7 @@
             <div class="project-description">
               <p class="caption">Role</p>
               <p>Cofounder, Head of Product</p>
-              <p class="caption">Project:</p>
+              <p class="caption">Project</p>
               <p>Responsive web app helping South Asian couples plan their weddings. Connect to vendors and chat with your wedding team.</p>
             </div>
           </article>
@@ -95,8 +134,8 @@
             </div>
             <div class="project-description">
               <p class="caption">Role</p>
-              <p>UI/UX Designer, Brand Consultant</p>
-              <p class="caption">Project:</p>
+              <p>UX/UI Designer, Brand Consultant</p>
+              <p class="caption">Project</p>
               <p>Coworking retreats for digital nomads. Join a group of 20 remote workers in beautiful, inspiring locations across the globe.</p>
             </div>
           </article>
@@ -106,15 +145,118 @@
 
     <section class="code work">
       <h3>👨🏽‍💻  code…</h3>
-      
+      <div class="inset-box projects">
+        <div>
+          <article>
+            <div class="project-preview">
+              <div class="screenshot">
+                <img src="images/milni-screen.png" alt="">
+              </div>
+              <div class="logo">
+                <img src="images/milni.png" alt="">
+              </div>
+            </div>
+            <div class="project-description">
+              <p class="caption">Role</p>
+              <p>Cofounder, Head of Product</p>
+              <p class="caption">Project</p>
+              <p>Responsive web app helping South Asian couples plan their weddings. Connect to vendors and chat with your wedding team.</p>
+            </div>
+          </article>
+          <article>
+            <div class="project-preview">
+              <div class="screenshot">
+                <img src="images/aquamobile-screen.png" alt="">
+              </div>
+              <div class="logo">
+                <img src="images/aquamobile.png" alt="">
+              </div>
+            </div>
+            <div class="project-description">
+              <p class="caption">Role</p>
+              <p>Full-stack Developer, UX/UI Designer</p>
+              <p class="caption">Project</p>
+              <p>Uber for swimming instructors. Connecting parents and swimming learners with instructors across North America.</p>
+            </div>
+          </article>
+          <article>
+            <div class="project-preview">
+              <div class="screenshot">
+                <img src="images/paid-screen.png" alt="">
+              </div>
+              <div class="logo">
+                <img src="images/paid.png" alt="">
+              </div>
+            </div>
+            <div class="project-description">
+              <p class="caption">Role</p>
+              <p>Front-End Developer, UX/UI Designer</p>
+              <p class="caption">Project</p>
+              <p>Work with social media influencers to create campaigns that align with your brand and resonate with customers.</p>
+            </div>
+          </article>
+        </div>
     </section>
 
     <section class="teach work">
       <h3>👨🏻‍🏫  … and teach.</h3>
+      <div class="inset-box projects">
+        <div>
+          <article>
+            <div class="project-preview">
+              <div class="screenshot">
+                <img src="images/milni-screen.png" alt="">
+              </div>
+              <div class="logo">
+                <img src="images/milni.png" alt="">
+              </div>
+            </div>
+            <div class="project-description">
+              <p class="caption">Role</p>
+              <p>Cofounder, Head of Product</p>
+              <p class="caption">Project</p>
+              <p>Responsive web app helping South Asian couples plan their weddings. Connect to vendors and chat with your wedding team.</p>
+            </div>
+          </article>
+          <article>
+            <div class="project-preview">
+              <div class="screenshot">
+                <img src="images/aquamobile-screen.png" alt="">
+              </div>
+              <div class="logo">
+                <img src="images/aquamobile.png" alt="">
+              </div>
+            </div>
+            <div class="project-description">
+              <p class="caption">Role</p>
+              <p>Full-stack Developer, UX/UI Designer</p>
+              <p class="caption">Project</p>
+              <p>Uber for swimming instructors. Connecting parents and swimming learners with instructors across North America.</p>
+            </div>
+          </article>
+          <article>
+            <div class="project-preview">
+              <div class="screenshot">
+                <img src="images/paid-screen.png" alt="">
+              </div>
+              <div class="logo">
+                <img src="images/paid.png" alt="">
+              </div>
+            </div>
+            <div class="project-description">
+              <p class="caption">Role</p>
+              <p>Front-End Developer, UX/UI Designer</p>
+              <p class="caption">Project</p>
+              <p>Work with social media influencers to create campaigns that align with your brand and resonate with customers.</p>
+            </div>
+          </article>
+        </div>
     </section>
 
-    <section class="education work">
-      <h3>I started studying biopsychology at Tufts, graduated in financial economics at York, and learned web development at Bitmaker.</h3>
+    <section class="education">
+      <h3>
+        I started studying biopsychology at Tufts, graduated in financial economics at York, and learned web development at Bitmaker.
+      </h3>
     </section>
 
     <section class="interests">

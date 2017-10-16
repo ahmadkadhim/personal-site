@@ -1,7 +1,7 @@
 // bower:scss
 // endbower
 
-@import '../bower_components/normalize-css/normalize.css';
+@import 'bower_components/normalize-css/normalize';
 @import 'bourbon/bourbon';
 @import 'base/base';
 @import 'neat/neat';
@@ -12,5 +12,6 @@
 @import 'header';
 @import 'work';
 
+@import 'small';
 @import 'medium';
 @import 'large';

@@ -1,43 +1,133 @@
 
 header {
   padding: 2rem;
-  background: #FAFAFA;
+  // background: #FAFAFA;
+  background: url('../images/mobile-polygon.svg') 50% 50% no-repeat #FAFAFA;
+  background-size: 80%;
 
   
   .content {
-    background: url('../images/header-bg-desktop.svg') 50% 50% no-repeat;
-    background-size: contain;
-    width: 90%;
+    width: 100%;
     height: 36rem;
     // margin: rem 0;
     position: relative;
   }
 
+
+}
   .portrait {
     position: absolute;
-    left: 20%;
-    top: 50%;
-    margin-top: -100px;
+    left: 50%;
+    margin-left: -100px;
+    top: 8%;
+    width: 200px
+    // margin-top: -100px;
 
-    & img {
-      width: 200px;
+    // & img {
+    //   // width: 200px;
+    // }
+  }
+
+.hey {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  height: 200px;
+  width: 240px;
+  margin-left: -120px;
+  text-align: center;
+}
+
+#hand {
+  margin-bottom: 1rem;
+}
+
+.icon-button {
+  position: relative;
+  // background: url('../images/icon-octagon.svg') 50% 50% no-repeat;
+  // background-size: cover;
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  margin-right: .5em;
+  cursor: pointer;
+
+  &:hover, &:focus, &:active {
+    outline:0;
+
+    .octagon polygon {
+      fill-opacity: .8;
+    }
+    .linkedin path, .twitter path, .email g {
+      fill: #ffffff;
+    }
+    
+  }
+  
+  &:focus, &:active {
+    .tooltip {
+      visibility: visible;
     }
   }
 
-  .hey {
+  .octagon {
     position: absolute;
-    left: 50%;
-    top: 50%;
-    height: 200px;
-    margin-top: -100px;
+    left: 0;
+
+    polygon {
+      transition: fill-opacity 200ms ease;
+    }
   }
 
-  .icon-button {
-    background: url(../images/icon-octagon.svg) 50% 50% no-repeat;
-    background-size: cover;
-    height: 48px;
-    width: 48px;
-    display: inline-block;
-    margin-right: .5em;
+  .linkedin, .twitter, .email {
+    position: absolute;
+    top: 20px;
+    left: calc(50% - 10px);
+    // margin-left: -12px;
+
+    path {
+      transition: fill 200ms ease;
+    }
+
+    g {
+      // transition: fill 100ms ease;
+    }
   }
+}
+
+.tooltip {
+  visibility: hidden;
+  position: absolute;
+  bottom: -4rem;
+  left: -14rem;
+
+  &:active, &:focus {
+    visibility: visible;
+  }
+
+  &.tooltip-visible {
+    visibility: visible;
+  }
+
+  input {
+    width: 24rem;
+  }
+
+  .check-copied {
+    position: absolute;
+    right: 1rem;
+    top: 2px;
+    color: $black;
+
+    img {
+      position: relative;
+      top: 4px;
+    }
+  }
+}
+
+
+.js-copyinput {
+  background: rgba(255,255,255,.9);
+  border: 2px solid rgba(200,200,200,.25);
 }

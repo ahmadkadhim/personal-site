@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="322" height="579" viewBox="0 0 322 579">
+  <defs>
+    <linearGradient id="mobile-polygon-b" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF" stop-opacity=".2"/>
+      <stop offset="100%" stop-color="#FFF"/>
+    </linearGradient>
+    <polygon id="mobile-polygon-a" points="403.391 78.459 475.39 177.465 457.99 579.994 321.656 655.717 175.926 576.994 154.748 183.142 231.317 77.601"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-154 -77)">
+    <use fill="#0064B2" fill-opacity=".15" xlink:href="#mobile-polygon-a"/>
+    <use fill="url(#mobile-polygon-b)" fill-opacity=".7" xlink:href="#mobile-polygon-a"/>
+  </g>
+</svg>
