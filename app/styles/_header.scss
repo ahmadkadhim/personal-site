@@ -97,9 +97,20 @@ header {
 
 .tooltip {
   visibility: hidden;
-  position: absolute;
-  bottom: -4rem;
-  left: -14rem;
+  // position: absolute;
+  // bottom: -4rem;
+  // left: -14rem;
+  padding: 1rem;
+  position: fixed;
+  bottom: 4rem;
+  left: 50%;
+  margin-left: -150px;
+  width: 300px;
+  background: white;
+  border: 3px solid $primary-color;
+  border-radius: 6px;
+  box-shadow: 1px 2px 6px rgba(0,0,0,0.20);
+
 
   &:active, &:focus {
     visibility: visible;
@@ -110,13 +121,16 @@ header {
   }
 
   input {
-    width: 24rem;
+    // width: 24rem;
   }
 
   .check-copied {
-    position: absolute;
-    right: 1rem;
-    top: 2px;
+    // position: absolute;
+    // right: 1rem;
+    // top: 2px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
     color: $black;
 
     img {

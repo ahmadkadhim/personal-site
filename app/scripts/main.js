@@ -1,6 +1,8 @@
 // This changes everything
 'use strict';
 
+import Clipboard from './clipboard';
+
 // retrieve the element
 var element = document.getElementById('hand');
 
@@ -23,19 +25,21 @@ element.addEventListener('click', function(e){
 }, false);
 
 
-var copyTextareaBtn = document.querySelector('.js-textareaCopyBtn');
-// var copyTextareaTooltip = document.querySelector('.js-textareaCopyBtn .tooltip');
+// var copyTextareaBtn = document.querySelector('.js-textareaCopyBtn');
+// // var copyTextareaTooltip = document.querySelector('.js-textareaCopyBtn .tooltip');
 
-copyTextareaBtn.addEventListener('click', function (event) {
-  var copyTextarea = document.querySelector('.js-copytextArea');
-  // copyTextareaTooltip.classList.toggle('tooltip-visible')
-  copyTextareaBtn.focus();
+// copyTextareaBtn.addEventListener('click', function (event) {
+//   var copyTextarea = document.querySelector('.js-copytextArea');
+//   // copyTextareaTooltip.classList.toggle('tooltip-visible')
+//   copyTextarea.select();
+//   console.log(copyTextarea.value);
 
-  try {
-    var successful = document.execCommand('copy');
-    var msg = successful ? 'successful' : 'unsuccessful';
-    console.log('Copying text command was ' + msg);
-  } catch (err) {
-    console.log('Oops, unable to copy');
-  }
-});
+//   try {
+//     var successful = document.execCommand('copy');
+//     var msg = successful ? 'successful' : 'unsuccessful';
+//     console.log('Copying text command was ' + msg);
+//   } catch (err) {
+//     console.log('Oops, unable to copy');
+//   }
+//   copyTextareaBtn.focus();
+// });
