@@ -1,11 +1,7 @@
-@media only screen and (min-width: 900px) {
+@media screen and (min-width: $large-screen) {
 
+	header, section, footer {
+		padding: $base-spacing*3 $base-spacing*2;
+	}
 
-
-
-
-
-
-	
-	
 }

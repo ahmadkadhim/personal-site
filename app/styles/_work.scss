@@ -1,11 +1,17 @@
 
-// 
+$screenshot-width: 280px;
+$screenshot-height: calc(280px*.62);
+
+
+section.work {
+	margin-left: -$base-spacing/3;
+}
+
+
 .inset-box {
 
 	box-shadow: inset 0 0 8px rgba(0,0,0,0.10);
 
-	$screenshot-width: 300px;
-	$screenshot-height: calc(300px*.62);
 
 	background: $gray-1;
 	overflow-x: auto;
@@ -26,6 +32,14 @@
 		vertical-align: top;
 		margin-right: 1rem;
 	}
+}
+
+
+.project-preview {
+
+	// background: white;
+
+
 
 	.screenshot {
 		overflow: hidden;
@@ -43,6 +57,16 @@
 		}
 	}
 
+	.bitmaker-logo {
+
+		img {
+			width: 180px;
+			display: block;
+			margin: 0 auto;
+			margin-top: 61px
+		}
+	}
+
 	.logo {
 		width: 100%;
 		height: 3rem;
@@ -54,14 +78,19 @@
 			margin: 2em 0 .5rem;
 		}
 	}
-
-	.project-description {
-		padding: $base-spacing/2;
-	}
-
-	.caption {
-		margin-bottom: $base-spacing/8;
-	}
-
 }
+
+
+.project-description {
+	padding: $base-spacing/2;
+}
+
+.caption {
+	margin-bottom: $base-spacing/8;
+}
+
+
+
+
+
 

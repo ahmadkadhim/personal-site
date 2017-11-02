@@ -1,0 +1,33 @@
+
+
+section.education {
+
+	.schools {
+		// margin-left: 2em;
+	}
+
+	article {
+		margin-right: 1em;
+		width: 300px;
+		// max-width: 85%;
+		white-space: normal;
+		display: inline-block;
+		vertical-align: top;
+		margin-right: 1rem;
+	}
+
+}
+
+.school-logo {
+	text-align: left;
+	padding: 2em 0;
+
+	&.bitmaker-logo {
+		// height: 3em;
+		// margin-top: calc(3em - );
+	}
+
+	img {
+		height: 4em;
+	}
+}

@@ -1,0 +1,28 @@
+footer {
+
+	background: #526173;
+	
+	h1, h2, h3, h4, h5, h6, p {
+		color: white;
+	}
+
+
+	.contact-buttons {
+
+		text-align: left;
+
+		.social-icon path, .social-icon g {
+		    fill: white;
+		}
+	}
+
+	.icon-button:hover {
+		.social-icon path, .social-icon g {
+		    fill: #002C7C;
+		}
+	}
+
+	polygon {
+		fill: white;
+	}
+}

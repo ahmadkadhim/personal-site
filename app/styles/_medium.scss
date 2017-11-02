@@ -1,9 +1,62 @@
 @media screen and (min-width: $medium-screen) {
 
-	
-	header {
-		background-image: url('../images/header-bg-desktop.svg');
+
+	h1 {
+	  font-size: 1.70em;
 	}
 
+	h2 {
+		font-family: 'Apercu-Regular';
+		font-size: 2em;
+		// color: $primary-color;
+		letter-spacing: 0;
+		line-height: 1.40;
+	}
+
+	h3 {
+	  font-size: 1.45em;
+	}
+
+
+	h4 {
+	  font-size: 1.25em;
+	}
+
+
+	h5 {
+	  font-size: 1.10em;
+	}
+
+
+	header, section, footer {
+		padding: $base-spacing*2;
+	}
+
+
+	header {
+		background: #FAFAFA;
+	}
+
+	
+	.introduction {
+		background: url('../images/header-bg-desktop.svg') 50% 0% no-repeat;
+		background-size: 540px;
+	}
+
+	.hey {
+		margin-top: 2.5rem;
+		max-width: 480px;
+    padding-top: 4rem;
+    padding-bottom: 10rem;
+	}
+
+	.portrait {
+		transform: scale(1.00);
+		margin-top: 3rem;
+	}
+
+	.available {
+		max-width: 100%;
+	}
 
 }

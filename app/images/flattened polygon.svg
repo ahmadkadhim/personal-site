@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="330" height="329" viewBox="0 0 330 329">
+  <defs>
+    <linearGradient id="flattened-polygon-b" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF" stop-opacity=".2"/>
+      <stop offset="100%" stop-color="#FFF"/>
+    </linearGradient>
+    <polygon id="flattened-polygon-a" points="405.879 78.483 479.905 180.278 460.016 340.504 317.842 405.36 180.007 339.42 150.232 186.115 228.958 77.601"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-150 -77)">
+    <use fill="#0064B2" fill-opacity=".15" xlink:href="#flattened-polygon-a"/>
+    <use fill="url(#flattened-polygon-b)" fill-opacity=".7" xlink:href="#flattened-polygon-a"/>
+  </g>
+</svg>

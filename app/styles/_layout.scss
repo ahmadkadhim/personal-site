@@ -5,18 +5,11 @@ body {
 
 header, section, footer {
 	@include grid-container;
-	padding-left: $base-spacing;
-	padding-top: $base-spacing*4;
+	padding: $base-spacing*2 $base-spacing;
 }
 
-section.work {
-	padding-top: $base-spacing;
-	// padding-right: $base-spacing*2;
-	margin-left: -$base-spacing/3;
-}
-
-section.work.design {
-	padding-top: $base-spacing*4;
+section.education {
+	padding-top: 0;
 }
 
 // .portrait {
