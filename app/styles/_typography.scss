@@ -1,26 +1,26 @@
 
 @font-face {
   font-family: 'Apercu';
-  src: url("fonts/apercu-regular-webfont.eot");
+  src: url("../fonts/apercu-regular-webfont.eot");
   /* IE9 Compat Modes */
-  src: url("fonts/apercu-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/apercu-regular-webfont.woff") format("woff"), url("fonts/apercu-regular-webfont.ttf") format("truetype"), url("fonts/apercu-regular-webfont.svg#svgFontName") format("svg");
+  src: url("../fonts/apercu-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/apercu-regular-webfont.woff") format("woff"), url("../fonts/apercu-regular-webfont.ttf") format("truetype"), url("../fonts/apercu-regular-webfont.svg#svgFontName") format("svg");
   /* Legacy iOS */
 }
 
 @font-face {
   font-family: 'Apercu Mono';
-  src: url("fonts/apercu-mono-webfont.eot");
+  src: url("../fonts/apercu-mono-webfont.eot");
   /* IE9 Compat Modes */
-  src: url("fonts/apercu-mono-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/apercu-mono-webfont.woff") format("woff"), url("fonts/apercu-mono-webfont.ttf") format("truetype"), url("fonts/apercu-mono-webfont.svg#svgFontName") format("svg");
+  src: url("../fonts/apercu-mono-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/apercu-mono-webfont.woff") format("woff"), url("../fonts/apercu-mono-webfont.ttf") format("truetype"), url("../fonts/apercu-mono-webfont.svg#svgFontName") format("svg");
   /* Legacy iOS */
 }
-@font-face {
-  font-family: 'Verlag';
-  src: url("fonts/verlag-book.ttf");
-  /* IE9 Compat Modes */
-  src: url("fonts/verlag-book.ttf?#iefix") format("embedded-opentype"), url("fonts/verlag-book.ttff") format("woff"), url("fonts/verlag-book.ttf") format("truetype"), url("fonts/verlag-book.ttf#svgFontName") format("svg");
-  /* Legacy iOS */
-}
+// @font-face {
+//   font-family: 'Verlag';
+//   src: url("../fonts/verlag-book.ttf");
+//   /* IE9 Compat Modes */
+//   src: url("../fonts/verlag-book.ttf?#iefix") format("embedded-opentype"), url("../fonts/verlag-book.ttff") format("woff"), url("../fonts/verlag-book.ttf") format("truetype"), url("../fonts/verlag-book.ttf#svgFontName") format("svg");
+//   /* Legacy iOS */
+// }
 
 body, h1, h2, h3, h4, h5, h6, p, button, a, input {
   font-family: 'Apercu', Helvetica, Arial, sans-serif;
