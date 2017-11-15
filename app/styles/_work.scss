@@ -12,7 +12,7 @@ section.work {
 
 	box-shadow: inset 0 0 8px rgba(0,0,0,0.10);
 
-
+	border-radius: 6px;
 	background: $gray-1;
 	overflow-x: auto;
 	overflow-y: hidden;
@@ -22,7 +22,7 @@ section.work {
 	padding-top: $base-spacing;
 	padding-left: $base-spacing;
 	// margin-left: -$base-spacing;
-	margin-bottom: $base-spacing;
+	// margin-bottom: $base-spacing*2;
 
 	article {
 		width: $screenshot-width;
@@ -37,16 +37,17 @@ section.work {
 
 .project-preview {
 
-	// background: white;
-
-
+	background: white;
+	overflow: hidden;
+	border-radius: 4px;
+	box-shadow: 0 3px 6px 0 rgba(82,97,115,0.12);
+	margin-bottom: 1rem;
 
 	.screenshot {
 		overflow: hidden;
 		height: $screenshot-height;
 		width: 100%;
-		// height: 33.15%;
-		box-shadow: 0.25px 2px 16px rgba(0,0,0,.10);
+		border-bottom: 3px solid #EDEDED;
 
 		img {
 			// height: $screenshot-height;
@@ -57,25 +58,16 @@ section.work {
 		}
 	}
 
-	.bitmaker-logo {
-
-		img {
-			width: 180px;
-			display: block;
-			margin: 0 auto;
-			margin-top: 61px
-		}
-	}
-
 	.logo {
 		width: 100%;
-		height: 3rem;
+		height: 2rem;
 		margin-bottom: 1.5rem;
 
 		img {
-			height: 3rem;
+			height: 2rem;
 			display: block;
-			margin: 2em 0 .5rem;
+			margin: 1.5rem auto .5rem;
+			mix-blend-mode: multiply;
 		}
 	}
 }
@@ -83,6 +75,7 @@ section.work {
 
 .project-description {
 	padding: $base-spacing/2;
+	padding-bottom: $base-spacing;
 }
 
 .caption {
