@@ -1,13 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="330" height="329" viewBox="0 0 330 329">
+<svg xmlns="http://www.w3.org/2000/svg" width="322" height="331" viewBox="0 0 322 331">
   <defs>
-    <linearGradient id="mobile-polygon-b" x1="50%" x2="50%" y1="0%" y2="100%">
-      <stop offset="0%" stop-color="#FFF" stop-opacity=".2"/>
-      <stop offset="100%" stop-color="#FFF"/>
+    <linearGradient id="mobile-polygon-a" x1="56.281%" x2="25.187%" y1="102.565%" y2="-10.974%">
+      <stop offset="0%" stop-color="#F2F7FA"/>
+      <stop offset="100%" stop-color="#D0E6F7"/>
     </linearGradient>
-    <polygon id="mobile-polygon-a" points="405.879 78.483 479.905 180.278 460.016 340.504 317.842 405.36 180.007 339.42 150.232 186.115 228.958 77.601"/>
   </defs>
-  <g fill="none" fill-rule="evenodd" transform="translate(-150 -77)">
-    <use fill="#0064B2" fill-opacity=".15" xlink:href="#mobile-polygon-a"/>
-    <use fill="url(#mobile-polygon-b)" fill-opacity=".7" xlink:href="#mobile-polygon-a"/>
-  </g>
+  <polygon fill="url(#mobile-polygon-a)" fill-rule="evenodd" points="405.879 75.483 475.905 180.278 456.016 340.504 317.842 405.36 184.007 339.42 154.232 186.115 227.21 75.483" transform="translate(-154 -75)"/>
 </svg>

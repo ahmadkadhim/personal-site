@@ -28,8 +28,12 @@ body, h1, h2, h3, h4, h5, h6, p, button, a, input {
   color: #0064B2;
 }
 
-section h2, footer h2 {
+section h2, footer h2, section h3 {
   max-width: 880px;
+}
+
+h3 {
+  color: #526173;
 }
 
 .caption {

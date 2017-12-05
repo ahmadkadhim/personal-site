@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1064" height="696" viewBox="0 0 1064 696">
+  <defs>
+    <linearGradient id="header-bg-desktop-b" x1="17.323%" x2="70.179%" y1="23%" y2="100%">
+      <stop offset="0%" stop-color="#FFF" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#FFF" stop-opacity=".8"/>
+    </linearGradient>
+    <polygon id="header-bg-desktop-a" points="162.219 226.297 413.758 47.906 1087.85 133.822 1203.236 420.552 1054.91 687.688 372.831 742.075 140.643 533.711"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-140 -47)">
+    <use fill="#0064B2" fill-opacity=".16" xlink:href="#header-bg-desktop-a"/>
+    <use fill="url(#header-bg-desktop-b)" fill-opacity=".8" xlink:href="#header-bg-desktop-a"/>
+  </g>
+</svg>
